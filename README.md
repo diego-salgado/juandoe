@@ -1,4 +1,4 @@
-# Busca Sociedades
+# Juan DOE 
 2021 © Diego Salgado, bajo Licencia MIT.
 
 Este programa es un buscador de publicaciones de extractos de sociedades en el Diario Oficial de Chile.
