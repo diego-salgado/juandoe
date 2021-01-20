@@ -6,4 +6,4 @@ This is a one-time-run module. In daily basis, we should only run *theJanitor mo
 
 1. Enter DOE website.
 2. Select a day starting Aug. 17th, 2016 -- this may be a 'for' loop.
-3. Check if 
+3. Check if in that day there's an edition of DOE. If not, continue to the next day. 
