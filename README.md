@@ -1,17 +1,20 @@
 # Juan DOE 
-2021 © Diego Salgado, bajo Licencia MIT.
 
-Este programa es un buscador de publicaciones de extractos de sociedades en el Diario Oficial de Chile.
+2021 (c) Diego Salgado, under MIT Licence.
 
-Consta de los siguientes módulos:
+This program is a search engine for publications of company statements in the Official Electronic Gazette of Chile (Diario Oficial Electrónico, "DOE").
 
-* Un módulo scraper que recopila la publicaciones desde el 17.08.2016 a la fecha en una base de datos (a definir si estará guardada en CSV o en SQLite).
+It consists of the following modules:
 
-El modulo scraper, que lo llamaremos "sabueso", ingresará al sitio, verificará si hay edición en ese día, y luego, si hay más de una edición en ese día (he llegado a ver hasta 4).
+* A scraper module that collects publications from August 17th, 2016 to date in a database (to define if it will be saved in CSV or in SQLite).
 
-* Un módulo de actualizaciones, que actualiza –valga la redundancia- la base de datos al día en que se abre el programa.
-* Un módulo buscador offline, que busca en la base de datos y cuyo output es:
-    1. Si existen publicaciones de la sociedad.
-    2. Las fechas de las publicaciones.
-    3. A qué corresponde: constitución, modificación o disolución.
-    4. Link a la descarga del extracto.
+The scraper module, which we will call "theHound", will enter the site, it will check if there is an edition on that day, and then, if there is more than one edition on that day (I have seen up to 4).
+
+* A module that updates the database on the day the program is opened.
+
+* An offline search module, which searches the database and whose output is:
+
+     1. If there are publications of the company.
+     2. The dates of the publications.
+     3. What does it correspond to: constitution, modification or dissolution.
+     4. Link to download the extract.
