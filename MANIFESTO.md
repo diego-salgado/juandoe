@@ -1,6 +1,6 @@
 # What should this program do?
 
-## theHound module.
+**theHound module.**
 
 1. Enter DOE website.
 2. 
